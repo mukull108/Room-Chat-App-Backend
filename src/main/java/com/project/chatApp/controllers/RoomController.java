@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("https://room-chat-app-frontend-production.up.railway.app")
+@CrossOrigin("https://localhost:5713")
 public class RoomController {
     @Autowired
     private RoomRepository repository;

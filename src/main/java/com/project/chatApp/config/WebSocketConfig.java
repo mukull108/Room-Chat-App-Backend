@@ -13,7 +13,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/chat")
-                .setAllowedOrigins("https://room-chat-app-frontend-production.up.railway.app")
+                .setAllowedOrigins("https://localhost:5713")
                 .withSockJS();
 
     }
