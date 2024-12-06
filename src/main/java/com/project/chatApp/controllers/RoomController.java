@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("https://localhost:5713")
+@CrossOrigin("http://localhost:5173")
 public class RoomController {
     @Autowired
     private RoomRepository repository;
